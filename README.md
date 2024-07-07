@@ -1,4 +1,4 @@
-# Country Info Website
+# Country-Info-Website
 
 ## Description
 This is my first website created using JavaScript. The website fetches data from the REST Countries API (https://restcountries.com/) and displays information about various countries. Users can search for a country and view details such as the country's name, capital, population, region, and flag.
