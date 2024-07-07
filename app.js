@@ -15,10 +15,10 @@ fetch("https://restcountries.com/v3.1/all")
                                 <div>
                                     Official Name : <h5>${element.name.official}</h5> <br>
                                 </div>
-                                <div>
+                                <div class="pad1">
                                     Capital : ${element.capital} <br>
                                 </div>
-                                <div>
+                                <div class="pad2">
                                     Population : ${element.population} <br>
                                 </div>
                                 <div>

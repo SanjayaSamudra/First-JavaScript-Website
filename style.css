@@ -1,3 +1,9 @@
 .head1{
     font-weight: 900;
 }
+.pad1{
+    margin-top: -20px;
+}
+.pad2{
+    margin: 2px;
+}
