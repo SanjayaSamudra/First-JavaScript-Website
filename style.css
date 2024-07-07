@@ -7,3 +7,16 @@
 .pad2{
     margin: 2px;
 }
+#btn{
+    border-color: wheat;
+}
+.bg1{
+    background-color: aqua;
+}
+.img1{
+    background-color: aqua;
+    border: none;
+    width: 25%;
+    height: 25%;
+    margin-top: 10px;
+}

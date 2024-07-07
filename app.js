@@ -22,7 +22,7 @@ fetch("https://restcountries.com/v3.1/all")
                                     Population : ${element.population} <br>
                                 </div>
                                 <div>
-                                    <a class="btn btn-primary" href="${element.maps.googleMaps}">Go To Maps</a>
+                                    <a id="btn" class="btn btn-btn-close-white" href="${element.maps.googleMaps}">Find My Country</a>
                                 </div>      
                             </p>
                         </td>
@@ -34,6 +34,7 @@ fetch("https://restcountries.com/v3.1/all")
     tblCountries.innerHTML = tabelBody;
 
 })
+
 
 function searchCountry(){
     let userInput = document.getElementById("txtInput").value;
@@ -58,3 +59,11 @@ function searchCountry(){
         })
     })
 }
+
+// let flag = {
+//     image : "flag.png"
+// };
+
+// <div class="w-25">
+//     flagImg.src=flag.image;
+// </div>
